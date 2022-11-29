@@ -1,0 +1,13 @@
+<h1>LISTA COLORES REQRES</h1>
+
+  
+
+<ul  *ngFor="let color of ListaColores">
+  <div>
+    <li>ID COLOR: {{color.id}}</li>
+    <li>NOMBRE: {{color.name}}</li>
+    <li>AÑO: {{color.year}}</li>
+    <li  [ngStyle]="{'color':color.color}">COLOR: {{color.color}}</li>
+    <li>VALOR PANTONE: {{color.pantone_value}}</li>
+  </div>
+</ul>

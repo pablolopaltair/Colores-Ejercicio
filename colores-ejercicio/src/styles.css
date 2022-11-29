@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+li, h1{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-weight: bold;
+}
